@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": "MURRAH-001",
+      "breed": "Murrah Buffalo",
+      "age": "3 years",
+      "location": "Sudanipur, Uttar Pradesh, India",
+      "description": "The Murrah is a premium dairy buffalo known for its jet-black coat, strong build, and curved horns. It is famous for high milk yield, rich fat content, and excellent adaptability.",
+      "price": 175000,
+      "insurance": 13000,
+      "inStock": true,
+      "images": [
+        "/src/assets/Murrah1.jpg",
+        "/src/assets/Murrah2.jpg",
+        "/src/assets/Murrah3.jpg",
+        "/src/assets/Murrah4.jpg"
+      ]
+    },
+    {
+      "id": "JAFF-001",
+      "breed": "Jaffarabadi Buffalo",
+      "age": "4 years",
+      "location": "Guntur, India",
+      "description": "The Jaffarabadi is one of the heaviest and strongest buffalo breeds. It offers good milk production and is valued for its robust health.",
+      "price": 175000,
+      "insurance": 13000,
+      "inStock": false,
+      "images": [
+        "/src/assets/Buffalo4.jpg",
+        "/src/assets/Buffalo5.jpg"
+      ]
+    },
+    {
+      "id": "MURRAH-002",
+      "breed": "Murrah Buffalo",
+      "age": "3 years",
+      "location": "Sudanipur, Uttar Pradesh, India",
+      "buffaloId": "MURRAH-001",
+      "description": "The Murrah is a premium dairy buffalo known for its jet-black coat, strong build, and curved horns.",
+      "price": 175000,
+      "insurance": 13000,
+      "images": [
+        "/src/assets/Buffalo6.jpg",
+        "/src/assets/Buffalo7.jpg"
+      ],
+      "inStock": true,
+      "weight": "650 kg",
+      "milkYield": "14 liters/day",
+      "healthStatus": "Excellent",
+      "temperament": "Calm",
+      "feedType": "Green Fodder & Dry Fodder"
+    },
+    {
+      "id": "Murrah-65677",
+      "breed": "Murrah",
+      "age": "3-years",
+      "location": "siddipet",
+      "description": "sdfghjklertyuio",
+      "price": "1,75,000",
+      "insurance": "13000",
+      "weight": "100kg",
+      "milkYield": "15litres",
+      "healthStatus": "healthy",
+      "temperament": "",
+      "feedType": "grass",
+      "inStock": true,
+      "images": [
+        "blob:http://localhost:5173/6d3ae9e7-8556-4483-9850-3fce83fd6bdd"
+      ]
+    }
+  ]
+}

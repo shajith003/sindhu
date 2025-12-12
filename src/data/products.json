@@ -1,0 +1,92 @@
+[
+  {
+    "id": "MURRAH-001",
+    "breed": "Murrah Buffalo",
+    "age": "3 years",
+    "location": "Sudanipur, Uttar Pradesh, India",
+    "description": "The Murrah is a premium dairy buffalo known for its jet-black coat, strong build, and curved horns. It is famous for high milk yield, rich fat content, and excellent adaptability.",
+    "price": 175000,
+    "insurance": 13000,
+    "inStock": true,
+    "images": [
+      "/src/assets/Murrah1.jpg",
+      "/src/assets/Murrah2.jpg",
+      "/src/assets/Murrah3.jpg",
+      "/src/assets/Murrah4.jpg"
+    ]
+  },
+  {
+    "id": "JAFF-001",
+    "breed": "Jaffarabadi Buffalo",
+    "age": "4 years",
+    "location": "Guntur, India",
+    "description": "The Jaffarabadi is one of the heaviest and strongest buffalo breeds. It offers good milk production and is valued for its robust health.",
+    "price": 175000,
+    "insurance": 13000,
+    "inStock": false,
+    "images": [
+      "/src/assets/Buffalo4.jpg",
+      "/src/assets/Buffalo5.jpg"
+    ]
+  },
+  {
+     "id": "MURRAH-002",
+    "breed": "Murrah Buffalo",
+    "age": "3 years",
+    "location": "Sudanipur, Uttar Pradesh, India",
+    "buffaloId": "MURRAH-001",
+    "description": "The Murrah is a premium dairy buffalo known for its jet-black coat, strong build, and curved horns.",
+    "price": 175000,
+    "insurance": 13000,
+    "images": [
+      "/src/assets/Buffalo6.jpg",
+      "/src/assets/Buffalo7.jpg"
+    ],
+    "inStock": true,
+
+    "weight": "650 kg",
+    "milkYield": "14 liters/day",
+    "healthStatus": "Excellent",
+    "temperament": "Calm",
+    "feedType": "Green Fodder & Dry Fodder"
+  },
+  {
+    "id": "JAFF-002",
+    "breed": "Jaffarabadi Buffalo",
+    "age": "3 years",
+    "location": "",
+    "buffaloId": "JAFF-001",
+    "description": "The Jaffarabadi is one of the heaviest buffalo breeds with strong milk production.",
+    "price": 100000,
+    "insurance": 13000,
+     "images": [
+      "/src/assets/Buffalo8.jpg",
+      "/src/assets/Buffalo9.jpg"
+    ],
+    "inStock": false,
+
+    "weight": "780 kg",
+    "milkYield": "12 liters/day",
+    "healthStatus": "Good",
+    "temperament": "Semi-Aggressive",
+    "feedType": "High-Protein Feed"
+  },
+  {
+    "id": "SURTI-001",
+    "breed": "Surti Buffalo",
+    "age": "3 years",
+    "location": "",
+    "buffaloId": "SURTI-001",
+    "description": "Surti buffaloes are medium-sized and known for moderate milk yield.",
+    "price": 120000,
+    "insurance": 13000,
+    "image": "/src/assets/Buffalo10.jpg",
+    "inStock": false,
+
+    "weight": "420 kg",
+    "milkYield": "8 liters/day",
+    "healthStatus": "Average",
+    "temperament": "Very Calm",
+    "feedType": "Dry Grass & Household Feed"
+  }
+]

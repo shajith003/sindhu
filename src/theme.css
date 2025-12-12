@@ -1,0 +1,256 @@
+/* Light Mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Optional: Card styling override */
+.dark-mode .card {
+  background-color: #2a2a2a;
+  border-color: #555;
+  color: white;
+}
+
+.light-mode .card {
+  background-color: white;
+  border-color: #ddd;
+}
+
+/* ------------------------ */
+/* DARK MODE FIXES FOR TABLE */
+/* ------------------------ */
+
+.dark-mode table,
+.dark-mode th,
+.dark-mode td {
+  color: white !important;
+}
+
+.dark-mode thead {
+  background-color: #333 !important;
+}
+
+.dark-mode tbody tr {
+  border-color: #555 !important;
+}
+
+/* Search bar text + placeholder */
+/* Dark mode input override */
+.dark-mode input {
+  background-color: #222 !important;
+  color: white !important;
+  border-color: #555 !important;
+}
+
+/* 🚫 Do NOT apply dark mode input style inside modals */
+.dark-mode .modal input,
+.dark-mode .modal select,
+.dark-mode .modal textarea {
+  background-color: white !important;
+  color: black !important;
+  border-color: #ccc !important;
+}
+
+
+.dark-mode input::placeholder {
+  color: #bbb !important;
+}
+
+/* Page titles */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode label {
+  color: white !important;
+}
+
+/* ------------------------ */
+/* DARK MODE TABLE COMPLETE FIX */
+/* ------------------------ */
+
+.dark-mode table {
+  background-color: #1e1e1e !important;
+}
+
+.dark-mode thead {
+  background-color: #333 !important;
+}
+
+.dark-mode th {
+  color: #fff !important;
+}
+
+.dark-mode tbody tr {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+}
+
+.dark-mode td {
+  color: #fff !important;
+}
+
+.dark-mode tbody tr:nth-child(even) {
+  background-color: #242424 !important;
+}
+
+.dark-mode tbody tr:hover {
+  background-color: #3a3a3a !important;
+}
+
+/* 🚫 Prevent dark mode inside modals */
+.dark .modal-content input,
+.dark .modal-content select,
+.dark .modal-content textarea {
+  background-color: white !important;
+  color: black !important;
+  border-color: #ccc !important;
+}
+
+/* If placeholder is dark, fix that too */
+.dark .modal-content input::placeholder,
+.dark .modal-content textarea::placeholder {
+  color: #666 !important;
+}
+/* 💡 Force modal inputs to stay light mode always */
+
+.modal-content input,
+.modal-content select,
+.modal-content textarea {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Fix placeholders */
+.modal-content input::placeholder,
+.modal-content textarea::placeholder {
+  color: #777 !important;
+}
+/* Dark mode modal styling */
+.dark-mode .modal-content {
+  background-color: #1f1f1f !important;
+  color: white !important;
+}
+
+/* Labels in dark modal */
+.dark-mode .modal-content label {
+  color: white !important;
+}
+
+/* Inputs in dark modal */
+.dark-mode .modal-content input,
+.dark-mode .modal-content select,
+.dark-mode .modal-content textarea {
+  background-color: #2a2a2a !important;
+  color: white !important;
+  border: 1px solid #555 !important;
+}
+
+/* Placeholder in dark modal */
+.dark-mode .modal-content input::placeholder,
+.dark-mode .modal-content textarea::placeholder {
+  color: #aaa !important;
+}
+
+/* 🌙 Dark Mode — Product Card Fix */
+.dark-mode .product-card {
+  background-color: #222 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+/* Ensure inner text becomes white */
+.dark-mode .product-card h3,
+.dark-mode .product-card p,
+.dark-mode .product-card span,
+.dark-mode .product-card div {
+  color: white !important;
+}
+
+/* Keep price green */
+.dark-mode .product-card .price-text {
+  color: #34d399 !important; /* Tailwind green-400 */
+}
+
+/* Make insurance text light gray */
+.dark-mode .product-card .insurance-text {
+  color: #ccc !important;
+}
+/* Dark mode styling ONLY for product & table inputs */
+.dark-mode .product-card input,
+.dark-mode .table input {
+  background-color: #222 !important;
+  color: white !important;
+  border-color: #555 !important;
+}
+
+/* Do NOT darken modal inputs */
+.modal-content input,
+.modal-content select,
+.modal-content textarea {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #ccc !important;
+}
+/* STOP dark mode from affecting search input */
+.no-dark input {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-color: #ccc !important;
+}
+
+.dark-mode .no-dark input {
+  background-color: #1f2937 !important; /* Tailwind dark:bg-gray-800 */
+  color: #fff !important;
+  border-color: #555 !important;
+}
+
+.nav-btn {
+  padding: 6px 14px;
+  border: 1px solid #bcd7ff;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  font-weight: 500;
+}
+
+/* Light theme */
+.light-mode .nav-btn {
+  color: #003366;
+  background-color: white;
+}
+
+/* Hover effect */
+.nav-btn:hover {
+  background-color: #cfe5ff;
+  border-color: #5aaaff;
+  box-shadow: 0 4px 10px rgba(80, 160, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Dark theme */
+.dark-mode .nav-btn {
+  color: white;
+  background-color: #1f1f1f;
+  border: 1px solid #3f7fff;
+}
+
+.dark-mode .nav-btn:hover {
+  background-color: #3a5fff;
+  border-color: #76a8ff;
+  box-shadow: 0 4px 10px rgba(98, 155, 255, 0.5);
+}
+
+/* Normal light mode */
+.light-mode .dashboard-title {
+  text-shadow: none;
+  color: black;
+}
+
+
+
